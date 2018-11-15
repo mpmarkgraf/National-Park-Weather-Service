@@ -1,0 +1,103 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using Capstone.Web.Models
+@model DetailViewModel
+
+<div class="info">
+    <div class="deetPic">
+        <img src="~/Content/Images/Parks/@(Model.Park.ParkCode.ToLower()).jpg" />
+    </div>
+    <div class="quote">
+        <h2>"@Model.Park.InspirationQuote"</h2>
+        <h2>@Model.Park.InspirationalQuoteSource</h2>
+    </div>
+    <h1 class="title">@Model.Park.ParkName</h1>
+    <div class="deets" style="margin-left: 8%; padding: 1% 2% 1% 2%">
+        <div class="row">
+            <h2 class="cell">State: &nbsp;&nbsp;@Model.Park.State</h2>
+            <h2 class="cell">Year Founded: &nbsp;&nbsp;@Model.Park.YearFounded</h2>
+        </div>
+        <div class="row">
+            <h2 class="cell">Acreage: &nbsp;&nbsp;@String.Format("{0:n0}", Model.Park.Acreage)</h2>
+            <h2 class="cell">Climate: &nbsp;&nbsp;@Model.Park.Climate</h2>
+            <h2 class="cell">Miles Of Trail: &nbsp;&nbsp;@Model.Park.MilesOfTrail</h2>
+            <h2 class="cell">Elevation (in ft): &nbsp;&nbsp;@Model.Park.ElevationInFeet</h2>
+        </div>
+        <div class="row">
+            <h2 class="cell">Number Of Campsites: &nbsp;&nbsp;@Model.Park.NumberOfCampsites</h2>
+            <h2 class="cell">Annual Visitor Count: &nbsp;&nbsp;@String.Format("{0:n0}", Model.Park.AnnualVisitorCount)</h2>
+            <h2 class="cell">Number Of Animal Species: &nbsp;&nbsp;@Model.Park.NumberOfAnimalSpecies</h2>
+        </div>
+        <h2 style="margin-left: 5%">Entry Fee: &nbsp;&nbsp;@Model.Park.EntryFee.ToString("C")</h2>
+        <h2 style="margin-top: 4%">@Model.Park.ParkDescription</h2>
+    </div>
+</div>
+
+
+<div class="wrap-collapsible">
+    <input id="collapsible" class="toggle" type="checkbox" />
+    <label id="temp" for="collapsible" class="lbl-toggle label">Click for 5-day forecast</label>
+    <div class="content">
+        <form class="tempswitch" action="@(Url.Action("Detail", "Home"))#temp" method="post">
+            <input type="radio" name="temp" value="F">Fahrenheit<br />
+            <input type="radio" name="temp" value="C">Celsius<br /><br />
+            <button>Submit</button>
+        </form>
+        @foreach (Weather item in Model.FivedayForecast)
+        {
+            if (item.FiveDayForcastValue == 1)
+            {
+                <div class="today">
+                    <img class="todayimg" src="~/Content/Images/Weather/@(item.ImagePath).png" />
+                    <h2 class="weathername">@item.Forecast</h2>
+                    @if (Model.isCelcius)
+                    {
+                        <h2 id="temphigh">High: @item.CelsiusHigh C </h2>
+                        <h2 id="templow">Low: @item.CelsiusLow C</h2>
+                    }
+                    else
+                    {
+                        <h2 id="temphigh">High: @item.FahrenheitHigh F </h2>
+                        <h2 id="templow">Low: @item.FahrenheitLow F</h2>
+                    }
+                    @if (item.WeatherAdvisory != null)
+                    {
+                        <h2>@item.WeatherAdvisory</h2>
+                    }
+                    @if (item.TempAdvisory != null)
+                    {
+                        <h2>@item.TempAdvisory</h2>
+                    }
+                </div>
+            }
+            else
+            {
+                <div class="week">
+                    <img class="weatherimg" src="~/Content/Images/Weather/@(item.ImagePath).png" />
+                    <h2 class="weathername">@item.Forecast</h2>
+                    @if (Model.isCelcius)
+                    {
+                        <h2 id="temphigh">High: @item.CelsiusHigh C </h2>
+                        <h2 id="templow">Low: @item.CelsiusLow C</h2>
+                    }
+                    else
+                    {
+                        <h2 id="temphigh">High: @item.FahrenheitHigh F </h2>
+                        <h2 id="templow">Low: @item.FahrenheitLow F</h2>
+                    }
+                    @if (item.WeatherAdvisory != null)
+                    {
+                        <h2>@item.WeatherAdvisory</h2>
+                    }
+                    @if (item.TempAdvisory != null)
+                    {
+                        <h2>@item.TempAdvisory</h2>
+                    }
+                </div>
+            }
+        }
+    </div>
+</div>
+
+

@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>NPWS</title>
+    <link rel="stylesheet" href="~/Content/npwsgeek.css">
+</head>
+<body>
+    <nav>
+        <img id="titleimg" src="~/Content/Images/logo.png" />
+        <ul>
+            <a href="~/Home/Index">
+                <li class="button">Home</li>
+            </a>
+            <a href="~/Home/Survey">
+                <li class="button">Survey</li>
+            </a>
+        </ul>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

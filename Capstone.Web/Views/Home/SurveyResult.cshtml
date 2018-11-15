@@ -1,0 +1,26 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using Capstone.Web.Models
+@model Dictionary<string, int>
+
+<h1 style="margin-left: 15%">Top Parks</h1>
+
+<div class="surveyres">
+    @foreach (KeyValuePair<string, int> item in Model)
+    {
+        <div>
+            <div>
+                <h1 class="surveyresult" style="margin-left: 15%">@item.Key</h1>
+                @if (item.Value == 1)
+                {
+                    <h1 class="surveyresult">: @item.Value survey</h1>
+                }
+                else
+                {
+                    <h1 class="surveyresult">: @item.Value surveys</h1>
+                }
+            </div>
+        </div>
+    }
+</div>

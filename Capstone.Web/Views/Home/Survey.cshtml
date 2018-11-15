@@ -1,0 +1,40 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using Capstone.Web.Models
+@model List<Park>
+
+<div class="survey">
+    @using (Html.BeginForm("SurveySubmit", "Home", FormMethod.Post))
+    {
+    <div class="park">
+        <div class="parkform">@Html.Label("Select park")</div>
+        <select class="parkbox" name="ParkCode">
+            @foreach (Park park in Model)
+            {
+                <option value="@park.ParkCode">@park.ParkName</option>
+            }
+        </select>
+    </div>
+    <div class="email">
+        <div class="emailform">@Html.Label("Enter email address")</div>
+        @Html.TextBox("EmailAddress", "", new { placeholder = "Email Address", @class = "emailbox" })
+        @Html.ValidationMessage("EmailAddress", new { @class = "errortext" })
+    </div>
+    <div class="state">
+        <div class="stateform">@Html.Label("Enter state")</div>
+        @Html.TextBox("State", "", new { placeholder = "State", @class = "statebox" })
+        @Html.ValidationMessage("State", new { @class = "errortext" })
+    </div>
+    <div class="level">
+        <div class="levelform">@Html.Label("Select activity level")</div>
+        <select class="levelbox" name="ActivityLevel">
+            <option value="inactive">Inactive</option>
+            <option value="sedentary">Sedentary</option>
+            <option value="active">Active</option>
+            <option value="extremelyActive">Extremely Active</option>
+        </select>
+    </div>
+        <button style="float: right; width: 150px">Submit</button>
+    }
+</div>

@@ -1,0 +1,42 @@
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\obj\Debug\Capstone.Web Tests.csprojAssemblyReference.cache
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\obj\Debug\Capstone.Web Tests.csproj.CoreCompileInputs.cache
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\Capstone.Web.Tests.dll.config
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\Capstone.Web.Tests.dll
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\Capstone.Web.Tests.pdb
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\Capstone.Web.dll
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\Castle.Core.dll
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\Moq.dll
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\System.ValueTuple.dll
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\System.Web.Razor.dll
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\Ninject.Web.Common.WebHost.dll
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\Ninject.dll
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\Ninject.Web.Common.dll
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\Capstone.Web.pdb
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\Capstone.Web.dll.config
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\Castle.Core.xml
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\Moq.pdb
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\Moq.xml
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\System.ValueTuple.xml
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\System.Web.Razor.xml
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\Ninject.Web.Common.WebHost.xml
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\Ninject.xml
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\bin\Debug\Ninject.Web.Common.xml
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\obj\Debug\Capstone.Web Tests.csproj.CopyComplete
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\obj\Debug\Capstone.Web.Tests.dll
+C:\Workspace\team\week-9-pair-exercises-team-2\Capstone\Capstone.Web.Tests\obj\Debug\Capstone.Web.Tests.pdb
